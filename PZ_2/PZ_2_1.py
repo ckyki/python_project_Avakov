@@ -16,7 +16,7 @@ while True:
     try:
         a = float(input("Введите стоимость этих конфет (в рублях): "))
         break
-    except ValueError: # Значение которое будет выведено на экран при ошибке ValueError
+    except ValueError: # Значение, которое будет выведено на экран при ошибке ValueError
         print("Значение должно являться числом")
 
 # Безопасный ввод веса Y
@@ -26,9 +26,9 @@ while True:
         y = float(input("Введите вес конфет Y (в кг): "))
         break
     except ValueError:
-        print("Значение должно являться чисом")
+        print("Значение должно являться числом")
 
-# Подчёт ответа
+# Подсчёт ответа
 
 cost_for_1_kg = a/x
 cost_for_y_kg = cost_for_1_kg * y
