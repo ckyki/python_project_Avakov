@@ -30,7 +30,7 @@ while True:
 
 # Подсчёт ответа
 
-cost_for_1_kg = a/x
+cost_for_1_kg = a / x
 cost_for_y_kg = cost_for_1_kg * y
 
 # Вывод ответа на экран
