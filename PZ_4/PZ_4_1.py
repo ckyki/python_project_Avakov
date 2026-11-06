@@ -6,7 +6,7 @@
 while True:
     try:
         a = int(input("Введите целое число А: "))
-        b = int(input("Введите целое число В (В >А):"))
+        b = int(input("Введите целое число В (В > А):"))
 
         if a < b:
             break
@@ -16,3 +16,11 @@ while True:
 
 count = 0
 current = a
+
+print("Числа в порядке возрастания: ")
+while current <= b:
+    print(current, end="|")
+    count += 1
+    current += 1
+
+print(f"\nКоличество чисел (N) = {count}")
